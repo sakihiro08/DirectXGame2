@@ -18,8 +18,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	// ゲームウィンドウの作成
 	win = WinApp::GetInstance();
-	win->CreateGameWindow(" LE2D_06_サキヒロユウキ");
-
+	win->CreateGameWindow(" LE2D_06_サキヒロ_ユウキ_AL3");
+//変更テスト
 	// DirectX初期化処理
 	dxCommon = DirectXCommon::GetInstance();
 	dxCommon->Initialize(win);
